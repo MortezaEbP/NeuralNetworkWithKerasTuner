@@ -17,11 +17,9 @@ The neural network architecture is defined as follows:
 
 ### Mathematical Formulas
 - The model architecture can be represented as:
-  # $\[\text{{Model}}(x) = \text{{Input Layer}} \rightarrow \text{{Hidden Layers}} \rightarrow \text{{Output Layer}}\]$
+  ## $\\text{{Model}}(x) = \text{{Input Layer}} \rightarrow \text{{Hidden Layers}} \rightarrow \text{{Output Layer}}\$
 - The hidden layer computation for layer $\(i\)$ is given by:
-  $\[
-  h_i = \text{{Activation}}(\text{{Input}} \cdot \text{{Weights}}_i + \text{{Bias}}_i)
-  \]$
+  ## $\\text{{h}}_i = \text{{Activation}}(\text{{Input}} \cdot \text{{Weights}}_i + \text{{Bias}}_i)\$
 
 ### Hyperparameters
 
@@ -40,9 +38,9 @@ The code uses RandomSearch from Keras Tuner to search the hyperparameter space f
 
 After tuning, the best model is selected based on the lowest validation loss. The summary of the best model's architecture and hyperparameters is displayed.
 - The mean squared error (MSE) loss function is defined as:
-  ### $$\[\text{{MSE}} = \frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2\]$$
+  ### $$\\text{{MSE}} = \frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2\$$
 - The mean absolute error (MAE) metric is defined as:
-  ### $$\[\text{{MAE}} = \frac{1}{N} \sum_{i=1}^{N} |y_i - \hat{y}_i|\]$$
+  ### $$\\text{{MAE}} = \frac{1}{N} \sum_{i=1}^{N} |y_i - \hat{y}_i|\$$
 
 ## Formulae
 
