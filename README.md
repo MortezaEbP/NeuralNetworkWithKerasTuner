@@ -1,5 +1,4 @@
 # NeuralNetworkWithKerasTuner
-# Hyperparameter Tuning for Neural Network Model
 
 This repository contains a Python script for building and tuning a neural network model using Keras Tuner to predict a target variable. The code is designed to optimize the architecture and hyperparameters of the neural network for the best performance on a given dataset.
 
